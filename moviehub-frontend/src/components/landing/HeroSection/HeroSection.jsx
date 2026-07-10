@@ -46,9 +46,11 @@ function HeroSection() {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[1.75rem] border border-white/10 bg-gradient-to-br from-pink-500/90 via-fuchsia-500/70 to-cyan-400/60 p-6 shadow-2xl shadow-black/30">
+          <div className="relative overflow-hidden rounded-[1.75rem] border border-white/10 shadow-2xl shadow-black/30">
+            <img src="https://images.unsplash.com/photo-1579373903781-fd5658cb7e6f?w=600&h=400&fit=crop" alt="Neon Skyline" className="h-full w-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
             <div className="absolute bottom-[-3rem] right-[-2rem] h-44 w-44 rounded-full bg-white/20 blur-3xl" />
-            <div className="relative flex min-h-[320px] flex-col justify-end">
+            <div className="relative flex min-h-[320px] flex-col justify-end p-6">
               <p className="text-sm uppercase tracking-[0.3em] text-white/80">Now streaming</p>
               <h3 className="mt-2 text-3xl font-semibold text-white">Neon Skyline</h3>
               <p className="mt-2 text-white/90">Action • Adventure • Sci-Fi</p>
