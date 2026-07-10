@@ -1,7 +1,7 @@
 const trendingItems = [
-  { title: 'Aurora Drift', tag: 'Fantasy', image: 'https://images.unsplash.com/photo-1464207687429-7505649dae38?w=400&h=300&fit=crop' },
-  { title: 'Shadow District', tag: 'Mystery', image: 'https://images.unsplash.com/photo-1495148422847-8c184172df8c?w=400&h=300&fit=crop' },
-  { title: 'Echoes of Tomorrow', tag: 'Adventure', image: 'https://images.unsplash.com/photo-1495221239763-c1433bd89cb6?w=400&h=300&fit=crop' }
+  { title: 'Aurora Drift', tag: 'Fantasy', image: 'https://picsum.photos/400/300?random=4' },
+  { title: 'Shadow District', tag: 'Mystery', image: 'https://picsum.photos/400/300?random=5' },
+  { title: 'Echoes of Tomorrow', tag: 'Adventure', image: 'https://picsum.photos/400/300?random=6' }
 ];
 
 function TrendingSection() {

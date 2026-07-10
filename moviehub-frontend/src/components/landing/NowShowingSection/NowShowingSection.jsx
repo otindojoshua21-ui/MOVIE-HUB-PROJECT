@@ -1,7 +1,7 @@
 const movies = [
-  { title: 'Neon Skyline', genre: 'Sci-Fi', time: '7:30 PM', image: 'https://images.unsplash.com/photo-1579373903781-fd5658cb7e6f?w=400&h=300&fit=crop' },
-  { title: 'Midnight Circuit', genre: 'Thriller', time: '8:45 PM', image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=300&fit=crop' },
-  { title: 'Golden Hour', genre: 'Drama', time: '6:15 PM', image: 'https://images.unsplash.com/photo-1489599849228-ed4dc59b2e9b?w=400&h=300&fit=crop' }
+  { title: 'Neon Skyline', genre: 'Sci-Fi', time: '7:30 PM', image: 'https://picsum.photos/400/300?random=1' },
+  { title: 'Midnight Circuit', genre: 'Thriller', time: '8:45 PM', image: 'https://picsum.photos/400/300?random=2' },
+  { title: 'Golden Hour', genre: 'Drama', time: '6:15 PM', image: 'https://picsum.photos/400/300?random=3' }
 ];
 
 function NowShowingSection() {
